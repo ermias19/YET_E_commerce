@@ -1,0 +1,67 @@
+.main_container{
+    display: flex;
+
+}
+.shop_posters{
+    margin-left: 50px;
+    width: 800px;
+    height:400px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAniWAwKczOkFhsHZJtCYItDv7V2mWH1-88w&usqp=CAU);
+    
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDYbKVYAm2RNlQGIsDL0thwLg1-TUSHNzyVg&usqp=CAU);
+    }
+    50%{
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTu8goiMjHoVwhacKQeTUNhaOp-GDkP65m92Q&usqp=CAU) ;
+    }
+    75%{
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3Amg-8QqcqmAqGxR0tpo5rfIY9q0DFDBnxg&usqp=CAU) ;
+    }
+
+    100%{
+        background:url(https://image.shutterstock.com/image-illustration/big-sale-electronics-store-concept-600w-631262474.jpg) ;
+    }
+}
+.help_center{
+    margin-left: 50px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.categories{
+    border-style: solid;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: max-content;
+
+}
+.product_flex{
+    display: flex;
+    padding: 20px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 10px;
+
+}
+.product_flex_2{
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 10px;
+
+}
+.recommend{
+    display: flex;
+}
+   
+.top_sells{
+    display: flex;
+}
+img{
+    margin-left: 60px;
+}
